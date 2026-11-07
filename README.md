@@ -37,6 +37,9 @@ The database must already exist. On first connection, the app creates Mango
 indexes used by its entity queries. The connected user therefore needs
 read/write access to the database and permission to create indexes.
 
+For the implementation flow, HTTP endpoints, credentials, indexes, and data
+loading details, see [CouchDB Connection and Data Flow](DATABASE_CONNECTION.md).
+
 ## Data model
 
 All records are JSON documents in the selected database and include a `type`
